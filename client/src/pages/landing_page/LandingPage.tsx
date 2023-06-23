@@ -30,6 +30,21 @@ export default function Landing_page() {
 
       <div className={styles.container}>
         <div className={styles.cristopher}>
+          <img src={chris} alt=''/>
+          <Link to={'/products/' + 'men'} className={styles.collections}>
+            <div>Men's Collection</div>
+          </Link>
+        </div>
+        <div className={styles.ryan}>
+          <img src={ryan} alt=''/>
+          <Link to={'/products/' + 'women'} className={styles.collections}>
+            <div>Women's Collection</div>
+          </Link>
+        </div>
+      </div>
+
+      <div className={styles.container}>
+        <div className={styles.cristopher}>
           <img src={chris} alt='' />
           <Link to={'/products/' + 'men'} className={styles.collections}>
             <div>Men's Collection</div>
