@@ -1,0 +1,129 @@
+
+/* ------------ LANDING IMAGES ------------ */
+
+.container {
+  position: relative;
+  display: flex;
+  width: 100vw;
+  height: calc(100vh - 71px);
+  margin-top: 71px;
+}
+
+.cristopher img, .ryan img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.cristopher {
+  width: 60vw;
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.ryan {
+  width: 40vw;
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+
+.collections {
+  width: 70%;
+  height: 100px;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: none;
+
+  padding: 25px 30px;
+  margin: auto;
+  margin-bottom: 15px;
+
+  background: rgba(130, 130, 130, 0.1);
+
+  font-size: 20px;
+}
+
+.cristopher:hover > .collections, .pic:hover .collections {
+  bottom: 0;
+  color: rgba(134, 134, 134, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: 0.5s;
+  background: rgba(130, 130, 130, 0.1);
+}
+
+.ryan:hover > .collections,
+.pic:nth-child(2):hover > .collections {
+  bottom: 0;
+  color: rgb(216, 216, 216);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: 0.5s;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.collections:hover {
+  /* background: linear-gradient(45deg, rgba(	190, 0, 0, 0.2), rgba(	255, 184, 0, 0.2)); */
+  cursor: pointer;
+}
+
+
+/* ------------ SHOP BY ------------ */
+
+.shop_by {
+  margin: 100px auto 100px;
+  text-align: initial;
+}
+
+h5, h1 {
+  margin: 0px;
+  color: var(--mainTextAndMarginColors);
+
+  background-color: var(--mainBackgroudColor);
+}
+
+
+/* ------------ FOUR PICS ------------ */
+.four_pics {
+  margin-top: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.pic{
+  position: relative;
+  box-sizing: border-box;
+  width: 50vw;
+  height: 90vh;
+  padding: 50px;
+}
+
+.pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 400px) {
+  /* For mobile phones: */
+
+  .cristopher {
+    width: 50vw;
+  }
+
+  .ryan {
+    width: 50vw;
+  }
+
+  .collections {
+    width: 90%;
+  }
+}

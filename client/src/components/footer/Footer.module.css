@@ -1,0 +1,124 @@
+/* ------------ FOOTER ------------ */
+
+.footer_container {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100vw;
+  height: calc(100vh - 71px);
+  max-height: calc(100vh - 71px);
+  margin-top: 71px;
+
+  background: var(--mainTextAndMarginColors);
+  /* background: linear-gradient(0deg, rgb(50, 50, 50) 0%, rgba(19, 20, 23, 0) 100%); */
+}
+
+.footer_container>P {
+  text-align: center;
+  color: var(--mainBackgroudColor);
+  font-size: small;
+
+  margin-top: 156px;
+}
+
+input.news_letters {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  min-width: 650px;
+  width: 30vw;
+  height: 60px;
+  padding: 5px 10px;
+  border: none;
+  color: var(--mainBackgroudColor);
+  border-bottom: 0.5px solid var(--mainBackgroudColor);
+  caret-color: 0.5px solid var(--mainBackgroudColor);
+}
+
+.news_letters,
+textarea {
+  background: transparent;
+  outline: none;
+  color: var(--mainBackgroudColor);
+  font-size: larger;
+}
+
+form.news_letters {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 90vw;
+  align-items: center;
+  padding-bottom: 30px;
+  border-bottom: 0.5px solid var(--mainBackgroudColor);
+}
+
+form.news_letters>button {
+  width: 60px;
+  height: 60px;
+  background: transparent;
+  color: var(--mainBackgroudColor);
+  border: 0.5px solid var(--mainBackgroudColor);
+  margin-left: 60px;
+  cursor: pointer;
+  font-size: larger;
+}
+
+.footer_columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+  color: var(--mainBackgroudColor);
+  font-size: small;
+}
+
+.column {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.column>a {
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+.rights {
+  width: 90vw;
+  margin-left: 40px;
+  margin-right: 40px;
+  box-sizing: border-box;
+  padding: 20px 0;
+  text-align: left;
+  color: var(--mainBackgroudColor);
+  font-size: small;
+  border-top: 0.5px solid var(--mainBackgroudColor);
+}
+
+.rights > p {
+  color: var(--mainBackgroudColor)
+}
+
+@media only screen and (max-width: 400px) {
+
+  /* For mobile phones: */
+  .footer_container>p {
+    margin: 50px 20px 50px 20px;
+  }
+
+  input.news_letters {
+    min-width: 200px;
+  }
+
+  .footer_columns {
+    display: grid;
+    grid-template-columns: repeat(2, 45vw);
+    justify-content: center;
+  }
+}

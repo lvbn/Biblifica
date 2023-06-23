@@ -1,0 +1,143 @@
+.container {
+  position: fixed;
+  z-index: 101;
+
+  background-color: var(--mainBackgroudColor);
+  backdrop-filter: blur(12.5px);
+  -webkit-backdrop-filter: blur(12.5px);
+
+  box-sizing: border-box;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 9px 40px;
+  border-bottom: 0.5px solid var(--mainTextAndMarginColors);
+
+  margin: 0;
+}
+
+.left > * {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  border-radius: 50%;
+  font-family: 'Better Saturday', sans-serif;
+  color: var(--mainBackgroudColor);
+  background-color: var(--mainTextAndMarginColors);
+  /* background: linear-gradient(0deg, var(--mainTextAndMarginColors)); */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tramonto {
+  margin: 0px;
+  font-family: 'Better Saturday', sans-serif;
+  font-size: 22px;
+  color: var(--mainTextAndMarginColors);
+
+  /* background-image: linear-gradient(45deg, var(--mainTextAndMarginColors));
+
+  background-size: 100%;
+  background-repeat: repeat;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent; */
+}
+
+.searchbarForm {
+  position: relative;
+  border: 0.5px solid var(--mainTextAndMarginColors);
+  border-radius: 4px;
+
+  display: flex;
+}
+
+.searchbar {
+  box-sizing: border-box;
+  min-width: 470px;
+  width: 30vw;
+  height: 40px;
+  padding: 5px 10px;
+  border: none;
+  caret-color: 0.5px solid var(--mainTextAndMarginColors);
+}
+
+.searchbar, textarea {
+  background: transparent;
+  outline: none;
+  border-radius: 4px 0 0 4px;
+  color: var(--mainTextAndMarginColors);
+  background-color: var(--secondBackgroudColor);
+}
+
+.searchBttn {
+  padding: 2px 6px;
+  background: transparent;
+  border: none;
+  border-left: 0.5px solid var(--mainTextAndMarginColors);
+  color: var(--mainTextAndMarginColors);
+}
+
+.searchBttn:hover {
+  cursor: pointer;
+  color: var(--mainBackgroudColor);
+  background-color: var(--mainTextAndMarginColors);
+}
+
+
+.cart {
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  border: 0.5px solid var(--mainTextAndMarginColors);
+  border-radius: 4px;
+  cursor: pointer;
+
+  color: var(--mainTextAndMarginColors);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+
+.thumbnail {
+  width: 40px;
+  height: 40px;
+  border: 0.5px solid var(--mainTextAndMarginColors);
+  border-radius: 100%;
+
+  margin-left: 15px;
+}
+
+@media only screen and (max-width: 400px) {
+  /* For mobile phones: */
+  .tramonto {
+    display: none;
+  }
+
+  .searchbar {
+    min-width: 200px;
+  }
+}

@@ -1,0 +1,111 @@
+.item {
+  position: relative;
+  width: 100%;
+  min-width: fit-content;
+  height: 12vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  margin: 10px 0;
+  /* border: 0.5px solid rgba(134, 134, 134, 0.5); */
+  /* border: 0.5px solid var(--mainTextAndMarginColors); */
+  border-radius: 4px;
+  background-color: var(--secondBackgroudColor);
+}
+
+.img {
+  height: 100%;
+  width: 10vw;
+  object-fit: cover;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.itemDetails {
+  position: relative;
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* background-image: linear-gradient(45deg, #be0000, #ffb800);
+
+  background-size: 100%;
+  background-repeat: repeat;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent; */
+
+  margin: 0 25px;
+
+  box-sizing: border-box;
+}
+
+.quantity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 60px;
+}
+
+.quantity > p {
+  width: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+.increase {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.decrease {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.subtotal {
+  width: 60px;
+  text-align: end;
+}
+
+.removeItem {
+  position: absolute;
+  font-family:serif ;
+  top: 7px;
+  right: 7px;
+  rotate: 45deg;
+  margin: 0px;
+  cursor: pointer;
+
+  /* background-image: linear-gradient(45deg, #be0000, #ffb800);
+
+  background-size: 100%;
+  background-repeat: repeat;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent; */
+}
+
+@media only screen and (max-width: 400px) {
+
+  .container {
+    box-sizing: border-box;
+    position: fixed;
+    top: 71px;
+    bottom: 0px;
+    width: 100%;
+    height: calc(100vh - 71px);
+  }
+
+  .itemDetails {
+    margin: 0 10px;
+  }
+}
