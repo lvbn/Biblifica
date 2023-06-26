@@ -1,0 +1,31 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  /* padding: 50px; */
+}
+
+.card {
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+
+  border-radius: 20px;
+  /* background: linear-gradient(135deg, #BC92FF 0%, rgba(237, 241, 0, 0.415) 100%); */
+  /* background-color: var(--secondBackgroudColor); */
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}

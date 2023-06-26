@@ -19,7 +19,6 @@ export default function List() {
         products.map(p => (
           <Link key={p.id} to={'/products/' + p.category}>
             <li className={styles.li}>
-              {/* <img src={`../../images/${p.src_img}`} alt='' /> */}
               <img src={'../../src/images/' + p.src_img} alt='' />
               <div className={styles.categoryBanner}>{p.category}</div>
             </li>
@@ -27,16 +26,5 @@ export default function List() {
         ))
       }
     </ul>
-
-    // <ul>
-    //   {
-    //     products.map(p => (
-    //       <li key={p.id} className={styles.li} onClick={() => navigate('/products/' + p.category)}>
-    //         <img src={require('../../images/' + p.src_img)} alt='' />
-    //         <div className={styles.categoryBanner}>{p.category}</div>
-    //       </li>
-    //     ))
-    //   }
-    // </ul>
   )
 }

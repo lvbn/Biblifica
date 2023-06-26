@@ -4,24 +4,81 @@
 .container {
   position: relative;
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100vw;
   height: calc(100vh - 71px);
   margin-top: 71px;
+  padding: 50px;
 }
 
-.cristopher img, .ryan img {
+.card {
+  box-sizing: border-box;
   width: 100%;
   height: 100%;
+
+  border-radius: 20px;
+  background: linear-gradient(135deg, #BC92FF 0%, rgba(237, 241, 0, 0.415) 100%);
+  /* background-color: var(--secondBackgroudColor); */
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
   object-fit: cover;
 }
 
-
-.cristopher {
-  width: 60vw;
-  height: 100%;
-  position: absolute;
-  left: 0;
+.card div.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
+
+.card h1 {
+  background: transparent;
+  color: black;
+  font-size: 5em;
+  margin-left: 100px;
+
+  text-align: left;
+}
+
+.card span.hightlight {
+  background: transparent;
+  color: var(--mainTextAndMarginColors);
+  /* border-bottom: 20px solid rgb(220, 0, 202); */
+}
+
+/* https://plantpot.works/2793 */
+.card span.underline {
+  /* background-image: linear-gradient(90deg, rgb(220, 0, 202), #f2a640); */
+  background-image: linear-gradient(90deg,#f2a640, #f2a640);
+  background-position: bottom;
+  background-size: 120% 30%;
+  background-repeat: no-repeat;
+}
+
+.card button {
+  background: var(--mainTextAndMarginColors);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  font-size: larger;
+
+  border: none;
+  border-radius: 10px;
+
+  margin-top: 50px;
+  margin-left: 100px;
+
+  cursor: pointer;
+}
+
 
 .ryan {
   width: 40vw;
@@ -92,7 +149,7 @@ h5, h1 {
 
 /* ------------ FOUR PICS ------------ */
 .four_pics {
-  margin-top: 150px;
+  /* margin-top: 150px; */
   display: flex;
   flex-wrap: wrap;
   width: 100vw;

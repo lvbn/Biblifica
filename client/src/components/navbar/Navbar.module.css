@@ -68,7 +68,7 @@
 .searchbarForm {
   position: relative;
   border: 0.5px solid var(--mainTextAndMarginColors);
-  border-radius: 4px;
+  border-radius: 10px;
 
   display: flex;
 }
@@ -86,7 +86,7 @@
 .searchbar, textarea {
   background: transparent;
   outline: none;
-  border-radius: 4px 0 0 4px;
+  border-radius: 10px 0 0 10px;
   color: var(--mainTextAndMarginColors);
   background-color: var(--secondBackgroudColor);
 }
@@ -95,12 +95,14 @@
   padding: 2px 6px;
   background: transparent;
   border: none;
+  border-radius: 0 10px 10px 0;
   border-left: 0.5px solid var(--mainTextAndMarginColors);
   color: var(--mainTextAndMarginColors);
 }
 
 .searchBttn:hover {
   cursor: pointer;
+  border-radius: 0 10px 10px 0;
   color: var(--mainBackgroudColor);
   background-color: var(--mainTextAndMarginColors);
 }
@@ -111,7 +113,7 @@
   height: 40px;
   margin: 0;
   border: 0.5px solid var(--mainTextAndMarginColors);
-  border-radius: 4px;
+  border-radius: 10px;
   cursor: pointer;
 
   color: var(--mainTextAndMarginColors);
