@@ -64,10 +64,15 @@
 }
 
 .price, .title {
+  display: none;
   margin: 5px;
   text-align: left;
   font-weight: 600;
   color: var(--mainTextAndMarginColors)
+}
+
+.li:hover > .price, .title {
+  display: block;
 }
 
 .emptySearch {

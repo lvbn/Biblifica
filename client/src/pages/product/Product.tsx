@@ -8,6 +8,8 @@ import storeItems from '../../data/items.json'
 import { useCartSlice } from '../../store/ShoppingCartSlice'
 import { CartItem } from '../../global-models/models'
 
+import categories from '../../data/categories.json'
+
 export default function Product() {
 
   const param = useParams()
@@ -162,7 +164,7 @@ export default function Product() {
         <h1>Recomended for you</h1>
       </div>
 
-      <List />
+      <List iterable={categories}/>
     </>
   )
 }

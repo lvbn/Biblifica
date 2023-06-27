@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "src_img": "alexander-krivitskiy.jpg",
+    "category": "perfumes"
+  },
+  {
+    "id": 2,
+    "src_img": "caique-nascimento.jpg",
+    "category": "clothes"
+  },
+  {
+    "id": 3,
+    "src_img": "ilona-panych.jpg",
+    "category": "jewelry"
+  },
+  {
+    "id": 4,
+    "src_img": "deji-akinyele.jpg",
+    "category": "hats"
+  }
+]

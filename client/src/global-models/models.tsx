@@ -1,10 +1,6 @@
 interface imgUrlArray {
-  imgUrl: [
-    {
       variant: null | string,
       pictures: string[]
-    }
-  ]
 }
 
 export interface Product {
@@ -41,4 +37,22 @@ export interface CartItem {
       pictures: string[]
     }
   ]
+}
+
+export interface CamisetasParaCongressos {
+  id: number,
+  title: string,
+  description: string,
+  price: number,
+  category_ids: string[],
+  sizes: string[],
+  colors: string[] | null,
+  src_img: string,
+  imgUrl: imgUrlArray[]
+}
+
+export interface ListObject {
+  id: number,
+  src_img: string,
+  category: string
 }

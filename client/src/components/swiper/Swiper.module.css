@@ -15,12 +15,24 @@
   height: 100%;
 
   border-radius: 20px;
-  /* background: linear-gradient(135deg, #BC92FF 0%, rgba(237, 241, 0, 0.415) 100%); */
-  /* background-color: var(--secondBackgroudColor); */
 
   display: flex;
   justify-content: flex-start;
   align-items: center;
+
+  background-size: cover;
+  background-position: center;
+
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.selectedCard {
+  opacity: 1;
+}
+
+.unselectedCard {
+  opacity: 0;
 }
 
 .card img {
@@ -28,4 +40,33 @@
   height: 100%;
   object-fit: cover;
   border-radius: 20px;
+}
+
+.slides {
+  z-index: 2;
+
+  align-self: flex-end;
+  margin-bottom: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: row;
+  width: 100px;
+}
+
+.slide {
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+
+  cursor: pointer;
+  background-color: var(--mainBackgroudColor);
+  transition: width 0.5s;
+}
+
+.selectedSlide {
+  width: 40px;
+  background-color: var(--mainTextAndMarginColors);
 }
