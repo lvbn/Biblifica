@@ -1,5 +1,5 @@
-import { ListObject } from '../../global-models/models';
 import styles from './List.module.css'
+import { ListObject } from '../../global-models/models';
 
 import { Link, useNavigate } from 'react-router-dom';
 

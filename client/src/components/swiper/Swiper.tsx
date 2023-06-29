@@ -39,7 +39,7 @@ export default function Swiper() {
       {
         <div
           className={`${styles.card} ${activeCardClass(index)}`}
-          style={{ backgroundImage: `url(../../src/images/${cards[index].img})` }}
+          style={{ backgroundImage: `url(../../src/images/cards/${cards[index].img})` }}
         >
           {/* <img src={`../../src/images/${cards[index].img}`} alt='' /> */}
         </div>

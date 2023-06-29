@@ -10,24 +10,24 @@
     "src_img": "calvin-lupiya.jpg",
     "imgUrl": [
       {
-        "variant": "#ff4d12",
-        "pictures": ["calvin-lupiya.jpg", "daniel-monteiro.jpg", "josue-escoto.jpg", "maria-fernanda-pissioli.jpg"]
+        "variant": null,
+        "pictures": ["cinza.png"]
       },
       {
         "variant": "#ffdb12",
-        "pictures": ["maria-fernanda-pissioli.jpg", "calvin-lupiya.jpg", "daniel-monteiro.jpg", "josue-escoto.jpg"]
+        "pictures": ["cinza.png"]
       },
       {
         "variant": "#6912ff",
-        "pictures": ["josue-escoto.jpg", "calvin-lupiya.jpg", "daniel-monteiro.jpg", "maria-fernanda-pissioli.jpg"]
+        "pictures": ["cinza.png"]
       },
       {
         "variant": "#1269ff",
-        "pictures": ["calvin-lupiya.jpg", "daniel-monteiro.jpg", "josue-escoto.jpg", "maria-fernanda-pissioli.jpg"]
+        "pictures": ["cinza.png"]
       },
       {
         "variant": "#ff1255",
-        "pictures": ["daniel-monteiro.jpg", "josue-escoto.jpg", "maria-fernanda-pissioli.jpg", "calvin-lupiya.jpg"]
+        "pictures": ["cinza.png"]
       }
     ]
   },
@@ -43,7 +43,7 @@
     "imgUrl": [
       {
         "variant": null,
-        "pictures": ["caique-nascimento.jpg", "amin-rk.jpg", "arun-sharma.jpg", "soha-sh.jpg"]
+        "pictures": ["preta.png"]
       }
     ]
   },
@@ -58,24 +58,24 @@
     "src_img": "calvin-lupiya.jpg",
     "imgUrl": [
       {
-        "variant": "#ff4d12",
-        "pictures": ["calvin-lupiya.jpg", "daniel-monteiro.jpg", "josue-escoto.jpg", "maria-fernanda-pissioli.jpg"]
+        "variant": null,
+        "pictures": ["azul-rosa.png"]
       },
       {
         "variant": "#ffdb12",
-        "pictures": ["calvin-lupiya.jpg", "josue-escoto.jpg", "daniel-monteiro.jpg", "maria-fernanda-pissioli.jpg"]
+        "pictures": ["cinza.png"]
       },
       {
         "variant": "#6912ff",
-        "pictures": ["josue-escoto.jpg", "calvin-lupiya.jpg", "daniel-monteiro.jpg", "maria-fernanda-pissioli.jpg"]
+        "pictures": ["cinza.png"]
       },
       {
         "variant": "#1269ff",
-        "pictures": ["calvin-lupiya.jpg", "daniel-monteiro.jpg", "maria-fernanda-pissioli.jpg", "josue-escoto.jpg"]
+        "pictures": ["cinza.png"]
       },
       {
         "variant": "#ff1255",
-        "pictures": ["daniel-monteiro.jpg", "josue-escoto.jpg", "maria-fernanda-pissioli.jpg", "calvin-lupiya.jpg"]
+        "pictures": ["cinza.png"]
       }
     ]
   },
@@ -91,7 +91,7 @@
     "imgUrl": [
       {
       "variant": null,
-      "pictures": ["deji-akinyele.jpg", "allef-vinicius-II.jpg", "allef-vinicius-III.jpg", "allef-vinicius.jpg"]
+      "pictures": ["verde-laranja.png"]
       }
     ]
   },
@@ -107,7 +107,7 @@
     "imgUrl": [
       {
       "variant": null,
-      "pictures": ["alexander-krivitskiy.jpg", "caique-nascimento.jpg", "christopher-campbell.jpg", "ilona-panych.jpg"]
+      "pictures": ["lilaz-rosa.png"]
       }
     ]
   },
@@ -123,7 +123,7 @@
     "imgUrl": [
       {
       "variant": null,
-      "pictures": ["juan-manuel-merino.jpg", "1-bracelet.jpg", "2-bracelet.jpg", "3-bracelet.jpg"]
+      "pictures": ["musgo-laranja.png"]
       }
     ]
   },
@@ -139,7 +139,7 @@
     "imgUrl": [
       {
       "variant": null,
-      "pictures": ["0-perfume.jpg", "1-perfume.jpg", "2-perfume.jpg", "3-perfume.jpg"]
+      "pictures": ["bordo.png"]
       }
     ]
   },
@@ -154,24 +154,24 @@
     "src_img": "calvin-lupiya.jpg",
     "imgUrl": [
       {
-        "variant": "#ff4d12",
-        "pictures": ["calvin-lupiya.jpg", "daniel-monteiro.jpg", "josue-escoto.jpg", "maria-fernanda-pissioli.jpg"]
+        "variant": null,
+        "pictures": ["verde-bronze.png"]
       },
       {
         "variant": "#ffdb12",
-        "pictures": ["maria-fernanda-pissioli.jpg", "calvin-lupiya.jpg", "daniel-monteiro.jpg", "josue-escoto.jpg"]
+        "pictures": ["cinza.png"]
       },
       {
         "variant": "#6912ff",
-        "pictures": ["josue-escoto.jpg", "calvin-lupiya.jpg", "daniel-monteiro.jpg", "maria-fernanda-pissioli.jpg"]
+        "pictures": ["cinza.png"]
       },
       {
         "variant": "#1269ff",
-        "pictures": ["calvin-lupiya.jpg", "daniel-monteiro.jpg", "josue-escoto.jpg", "maria-fernanda-pissioli.jpg"]
+        "pictures": ["cinza.png"]
       },
       {
         "variant": "#ff1255",
-        "pictures": ["daniel-monteiro.jpg", "josue-escoto.jpg", "maria-fernanda-pissioli.jpg", "calvin-lupiya.jpg"]
+        "pictures": ["cinza.png"]
       }
     ]
   },
@@ -187,7 +187,7 @@
     "imgUrl": [
       {
         "variant": null,
-        "pictures": ["caique-nascimento.jpg", "amin-rk.jpg", "arun-sharma.jpg", "soha-sh.jpg"]
+        "pictures": ["preta.png"]
       }
     ]
   },
@@ -202,24 +202,24 @@
     "src_img": "calvin-lupiya.jpg",
     "imgUrl": [
       {
-        "variant": "#ff4d12",
-        "pictures": ["calvin-lupiya.jpg", "daniel-monteiro.jpg", "josue-escoto.jpg", "maria-fernanda-pissioli.jpg"]
+        "variant": null,
+        "pictures": ["cinza.png"]
       },
       {
         "variant": "#ffdb12",
-        "pictures": ["calvin-lupiya.jpg", "josue-escoto.jpg", "daniel-monteiro.jpg", "maria-fernanda-pissioli.jpg"]
+        "pictures": ["cinza.png"]
       },
       {
         "variant": "#6912ff",
-        "pictures": ["josue-escoto.jpg", "calvin-lupiya.jpg", "daniel-monteiro.jpg", "maria-fernanda-pissioli.jpg"]
+        "pictures": ["cinza.png"]
       },
       {
         "variant": "#1269ff",
-        "pictures": ["calvin-lupiya.jpg", "daniel-monteiro.jpg", "maria-fernanda-pissioli.jpg", "josue-escoto.jpg"]
+        "pictures": ["cinza.png"]
       },
       {
         "variant": "#ff1255",
-        "pictures": ["daniel-monteiro.jpg", "josue-escoto.jpg", "maria-fernanda-pissioli.jpg", "calvin-lupiya.jpg"]
+        "pictures": ["cinza.png"]
       }
     ]
   },
@@ -235,7 +235,7 @@
     "imgUrl": [
       {
       "variant": null,
-      "pictures": ["deji-akinyele.jpg", "allef-vinicius-II.jpg", "allef-vinicius-III.jpg", "allef-vinicius.jpg"]
+      "pictures": ["cinza.png"]
       }
     ]
   },
@@ -251,7 +251,7 @@
     "imgUrl": [
       {
       "variant": null,
-      "pictures": ["alexander-krivitskiy.jpg", "caique-nascimento.jpg", "christopher-campbell.jpg", "ilona-panych.jpg"]
+      "pictures": ["cinza.png"]
       }
     ]
   },
@@ -267,7 +267,7 @@
     "imgUrl": [
       {
       "variant": null,
-      "pictures": ["juan-manuel-merino.jpg", "1-bracelet.jpg", "2-bracelet.jpg", "3-bracelet.jpg"]
+      "pictures": ["cinza.png"]
       }
     ]
   },
@@ -283,7 +283,7 @@
     "imgUrl": [
       {
       "variant": null,
-      "pictures": ["0-perfume.jpg", "1-perfume.jpg", "2-perfume.jpg", "3-perfume.jpg"]
+      "pictures": ["cinza.png"]
       }
     ]
   }
