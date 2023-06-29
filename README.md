@@ -1,5 +1,5 @@
 # BIBLIFICA
-Biblifica is an ecommerce that sells beautifully designed clothes and offers consumers the possibility to configure the clothes according to their own desires.
+Biblifica is an e-commerce that sells beautifully designed clothes and offers consumers the possibility to configure the clothes according to their own desires.
 
 ## Visit the website:
 
@@ -14,24 +14,28 @@ This project is the frontend of Tramont's online shop.
 
 React + TypeScript + Zustand + CSS
 
-This project was created with `create vite@latest`. Zustand was used to manage states. Vanilla CSS was chosen to style the apllication and the css modules was the preferred approach.
+This project was created with `create vite@latest`. Zustand was used to manage states. Vanilla CSS was chosen to style the application and the CSS modules were the preferred approach.
 
 ## Features
 
 ### * Landing page:
-Provides an overview of products, categories and collections, providing the user an overview and a starting point.
+Provides an overview of products, categories, and collections, providing the user with an overview and a starting point.
 ### * products page: 
-Users can browse through products. Title of the product and price are displayed bellow the product image. The client's preference is to follow a clear UI maximazing the user experience when navigate the website. 
+Users can browse through products. The title of the product and price are displayed below the product image. The client's preference is to follow a clear UI maximizing the user experience when navigating the website. 
+### * product details page: 
+All details of the product are shown on this page, allowing the user to select color and size if the product offers that possibility.
 ### * Shopping Cart:
 - The shopping cart floats to the right. 
-- It is accessible anywhere in the application in order to allow the custommer to keep track of it without interrupting the shopping flow, increasing sales and providing a better user expierence. 
-- It is also resizable for the convinience of the user's screen.
+- It is accessible anywhere in the application in order to allow customers to keep track of it without interrupting the shopping flow, increasing sales and providing a better user experience. 
+- It is also resizable for the convenience of the user's screen.
+### * Payment Page: 
+Stripe provides a checkout page, where the total value can be checked before choosing a payment method and proceeding to payment.
 
 ## Available Scripts
 
 ### `npm run dev`
 
-Runs the app in the development mode.\
+Runs the app in development mode.\
 Open [http://localhost:3000](http://127.0.0.1:5173) to view it in your browser.
 
 The page will reload when you make changes.\
