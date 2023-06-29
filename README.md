@@ -36,7 +36,7 @@ Stripe provides a checkout page, where the total value can be checked before cho
 ### `npm run dev`
 
 Runs the app in development mode.\
-Open [http://localhost:3000](http://127.0.0.1:5173) to view it in your browser.
+Open [http://127.0.0.1:5175](http://127.0.0.1:5173) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
