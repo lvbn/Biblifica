@@ -1,0 +1,7 @@
+.container {
+  color: rgb(0, 0, 0);
+  margin-top: 71px;
+  width: 100vw;
+  height: calc(100vh - 71px);
+  /* display: flex; */
+}
