@@ -28,8 +28,6 @@ All details of the product are shown on this page, allowing the user to select c
 - The shopping cart floats to the right. 
 - It is accessible anywhere in the application in order to allow customers to keep track of it without interrupting the shopping flow, increasing sales and providing a better user experience. 
 - It is also resizable for the convenience of the user's screen.
-### * Payment Page: 
-Stripe provides a checkout page, where the total value can be checked before choosing a payment method and proceeding to payment.
 
 ## Available Scripts
 
