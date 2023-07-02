@@ -81,7 +81,7 @@ export default function CamisetasParaCongressos() {
                       >
                         <div className={styles.cardInfo} style={/*{backgroundColor: `${p.imgUrl[0].variant}`}*/
                           {
-                            background: `${p.imgUrl[0].variant}`,
+                            // background: `${p.imgUrl[0].variant}`,
                             borderRadius: '10px',
                             boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)',
                             backdropFilter: 'blur(5px)',

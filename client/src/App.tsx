@@ -42,7 +42,7 @@ function App() {
             <Route path='/product/:id' element={<Product/>} />
             <Route path='/camisetas-para-congressos' element={<CamisetasParaCongressos/>} />
             <Route path='/configurar-camisetas-para-congressos/:id' element={<ConfigurarCamisetasParaCongressos/>} />
-            <Route path='/pedir-camisetas-para-congressos' element={<PedirCamisetasParaCongressos/>} />
+            <Route path='/pedir-camisetas-para-congressos/:id' element={<PedirCamisetasParaCongressos/>} />
             <Route path='/crie-sua-camiseta' element={<CrieSuaCamiseta/>} />
           </Routes>
 

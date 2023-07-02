@@ -36,7 +36,7 @@ export default function ConfigurarCamisetasParaCongressos() {
     <>
       <div className={styles.container}>
 
-        <div className={styles.right}>
+        <div className={styles.left}>
           <div className={styles.shop_by}>
             <h5>Etapa 2 de 4</h5>
             <h1>Insira os dados abaixo</h1>
@@ -62,6 +62,7 @@ export default function ConfigurarCamisetasParaCongressos() {
             <div className={styles.title}>
               <h1>{item.title}</h1>
               <p>{item.description}</p>
+              <p className={styles.note}>•Na próxima etapa voce poderá escolher quantidades, tamanhos e cores. Nesta etapa precisamos apenas as informacoes sobre o seu congresso. 😊</p>
             </div>
 
             <input
@@ -98,7 +99,7 @@ export default function ConfigurarCamisetasParaCongressos() {
 
             <button
               className={styles.add}
-              onClick={() => navigate('/pedir-camisetas-para-congressos')}
+              onClick={() => navigate('/pedir-camisetas-para-congressos/' + item.id)}
             >
               PRÓXIMA ETAPA
             </button>

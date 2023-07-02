@@ -10,7 +10,7 @@
     "src_img": "calvin-lupiya.jpg",
     "imgUrl": [
       {
-        "variant": null,
+        "variant": "#ff4d12",
         "pictures": ["cinza.png"]
       },
       {

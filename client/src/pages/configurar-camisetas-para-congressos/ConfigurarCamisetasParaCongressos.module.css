@@ -8,7 +8,7 @@
   display: flex;
 }
 
-.right {
+.left {
   width: 50vw;
   height: calc(100vh - 71px);
   display: flex;
@@ -42,12 +42,14 @@
 .productInfo {
   width: 50vw;
   height: calc(100vh - 71px);
-  padding: 60px;
+  padding: 60px auto 60px 0px;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  border-left: 1px solid var(--secondBackgroudColor);
 }
 
 .title {
@@ -93,6 +95,13 @@ p {
 
   border: 1px solid var(--secondBackgroudColor);
   border-radius: 20px;
+}
+
+.note {
+  padding: 15px;
+  background-color: var(--secondBackgroudColor);
+  border: 1px solid var(--mainTextAndMarginColors);
+  border-radius: 10px;
 }
 
 .searchField {
