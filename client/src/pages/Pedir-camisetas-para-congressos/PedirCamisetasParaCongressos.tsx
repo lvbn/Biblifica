@@ -37,6 +37,7 @@ export default function PedirCamisetasParaCongressos() {
   const InitialOrder = [
     {
       id: crypto.randomUUID(),
+      productId: item.id,
       variant: item.variants[0],
       model: item.variants[0].models[0].model,
       price: item.price,
@@ -197,6 +198,7 @@ export default function PedirCamisetasParaCongressos() {
                 className={`${styles.button} ${styles.add}`}
                 onClick={() => setOrders([...orders, {
                   id: crypto.randomUUID(),
+                  productId: item.id,
                   variant: item.variants[0],
                   model: item.variants[0].models[0].model,
                   price: item.price,
