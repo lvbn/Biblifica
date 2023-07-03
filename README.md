@@ -1,5 +1,5 @@
 # BIBLIFICA
-Biblifica is an e-commerce that sells beautifully designed clothes and offers consumers the possibility to configure the clothes according to their own desires.
+Biblifica is an e-commerce that sells beautifully designed clothes and offers consumers the possibility to configure the clothes according to their desires.
 
 ## Visit the website:
 
@@ -8,7 +8,7 @@ Biblifica is an e-commerce that sells beautifully designed clothes and offers co
 
 ## About this project
 
-This project is the frontend of Tramont's online shop. 
+This project is the front end of the Biblifica online store.
 
 ## Frontend
 
@@ -19,14 +19,14 @@ This project was created with `create vite@latest`. Zustand was used to manage s
 ## Features
 
 ### * Landing page:
-Provides an overview of products, categories, and collections, providing the user with an overview and a starting point.
+Provides an overview of products, categories, and collections, providing the user with an overview of the products and a starting point.
 ### * products page: 
-Users can browse through products. The title of the product and price are displayed below the product image. The client's preference is to follow a clear UI maximizing the user experience when navigating the website. 
+Users can browse through products. The title of the product and price are displayed below the product image. The client's preference is to follow a straightforward UI maximizing the user experience when navigating the website. 
 ### * product details page: 
-All details of the product are shown on this page, allowing the user to select color and size if the product offers that possibility.
+All product details are shown on this page, allowing the user to select color and size if the product offers that possibility.
 ### * Shopping Cart:
 - The shopping cart floats to the right. 
-- It is accessible anywhere in the application in order to allow customers to keep track of it without interrupting the shopping flow, increasing sales and providing a better user experience. 
+- It is accessible anywhere in the application to allow customers to keep track of it without interrupting the shopping flow, increasing sales and providing a better user experience. 
 - It is also resizable for the convenience of the user's screen.
 
 ## Available Scripts
