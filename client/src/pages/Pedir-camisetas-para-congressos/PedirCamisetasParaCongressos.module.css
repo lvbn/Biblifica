@@ -95,15 +95,8 @@ p {
   height: 600px;
   padding: 20px;
 
-  border: 1px solid var(--secondBackgroudColor);
+  /* border: 1px solid var(--secondBackgroudColor); */
   border-radius: 20px;
-}
-
-.note {
-  padding: 15px;
-  background-color: var(--secondBackgroudColor);
-  border: 1px solid var(--mainTextAndMarginColors);
-  border-radius: 10px;
 }
 
 /* FORM END */
@@ -213,6 +206,14 @@ p {
 
 .quantity {
   display: flex;
+}
+
+.increase, .decrease {
+  cursor: pointer;
+}
+
+.modelImage {
+  height: 110px;
 }
 
 /* TABLE END */

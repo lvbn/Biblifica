@@ -3,7 +3,7 @@ import { ChangeEvent, useState } from 'react'
 import List from '../../components/list/List'
 import { useParams, useNavigate } from "react-router-dom"
 
-import storeItems from '../../data/camisetas-para-congressos.json'
+import camisetasParaCongressos from '../../data/camisetas-para-congressos.json'
 
 import { CartItem } from '../../global-models/models'
 
@@ -16,7 +16,7 @@ export default function PedirCamisetasParaCongressos() {
 
   const navigate = useNavigate()
   const param = useParams()
-  let item: any = storeItems.find(item => String(item.id) === param.id)
+  let item: any = camisetasParaCongressos.find(item => String(item.id) === param.id)
 
   const [newItem, setNewItem] = useState<CartItem>({
     id: item.id,
@@ -32,23 +32,24 @@ export default function PedirCamisetasParaCongressos() {
     imgUrl: item.imgUrl
   })
 
-  const mainImg = item.imgUrl[0].pictures[0]
+  const mainImg = item.variants[0].models[0].picture[0]
 
-  const InitialOrders = [
+  const InitialOrder = [
     {
-      id: 0,
-      model: 'one',
-      price: 27,
-      quantity: 6,
-      size: 'three',
+      id: crypto.randomUUID(),
+      variant: item.variants[0],
+      model: item.variants[0].models[0].model,
+      price: item.price,
+      quantity: 1,
+      size: 'M',
       // value: 'four',
-      image: 'five',
+      image: item.variants[0].models[0].picture[0],
     }
   ]
 
-  const [orders, setOrders] = useState(InitialOrders)
+  const [orders, setOrders] = useState(InitialOrder)
 
-  const handleDecrease = (id: number) => {
+  const handleDecrease = (id: string) => {
     const updatedOrdres = orders.map(order => {
       // if the item does exist in the cart
       if (order.id === id) {
@@ -60,7 +61,7 @@ export default function PedirCamisetasParaCongressos() {
     setOrders([...updatedOrdres])
   }
 
-  const handleIncrease = (id: number) => {
+  const handleIncrease = (id: string) => {
     const updatedOrdres = orders.map(order => {
       // if the item does exist in the cart
       if (order.id === id) {
@@ -72,12 +73,25 @@ export default function PedirCamisetasParaCongressos() {
     setOrders([...updatedOrdres])
   }
 
-  const handleChange = (e: ChangeEvent<HTMLSelectElement>, id: number) => {
+  const findModel = (clickedModel: string) => {
+    const foundModel = item.variants[0].models.find((model: {model: string, picture: string}) => {
+      return model.model === clickedModel
+    })
+
+    console.log('INDEX: ', item.variants[0].models.indexOf(foundModel))
+    return item.variants[0].models.indexOf(foundModel)
+  }
+
+  const handleChange = (e: ChangeEvent<HTMLSelectElement>, id: string) => {
     const value = e.target.name
     const updatedOrdres = orders.map(order => {
       // if the item does exist in the cart
       if (order.id === id) {
-        return { ...order, [value]: e.target.value }
+        if (value === 'model') {
+          return { ...order, [value]: e.target.value, image:  item.variants[0].models[findModel(e.target.value)].picture[0]}
+        } else {
+          return { ...order, [value]: e.target.value}
+        }
       } else {
         return order
       }
@@ -164,7 +178,13 @@ export default function PedirCamisetasParaCongressos() {
 
                         <td>{order.quantity * order.price}</td>
 
-                        <td>5</td>
+                        <td>
+                          <img
+                            src={'../../src/images/camisetas-para-congressos/' + order.image}
+                            alt=''
+                            className={styles.modelImage}
+                          />
+                        </td>
                       </tr>
                     ))
                   }
@@ -175,7 +195,16 @@ export default function PedirCamisetasParaCongressos() {
             <div className={styles.buttons}>
               <button
                 className={`${styles.button} ${styles.add}`}
-                onClick={() => navigate('/pedir-camisetas-para-congressos/')}
+                onClick={() => setOrders([...orders, {
+                  id: crypto.randomUUID(),
+                  variant: item.variants[0],
+                  model: item.variants[0].models[0].model,
+                  price: item.price,
+                  quantity: 1,
+                  size: 'M',
+                  // value: 'four',
+                  image: item.variants[0].models[0].picture[0],
+                }])}
               >
                 ADICIONAR
               </button>

@@ -30,7 +30,7 @@ export default function ConfigurarCamisetasParaCongressos() {
     imgUrl: item.imgUrl
   })
 
-  const mainImg = item.imgUrl[0].pictures[0]
+  const mainImg = item.variants[0].models[0].picture[0]
 
   return (
     <>

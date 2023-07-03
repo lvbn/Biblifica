@@ -8,26 +8,151 @@
     "sizes": ["S", "M", "L", "XL"],
     "colors": ["#ff4d12", "#ffdb12", "#6912ff", "#1269ff", "#ff1255"],
     "src_img": "calvin-lupiya.jpg",
-    "imgUrl": [
+    "variants": [
       {
         "variant": "#ff4d12",
-        "pictures": ["cinza.png"]
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["preta.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
       },
       {
         "variant": "#ffdb12",
-        "pictures": ["cinza.png"]
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
       },
       {
         "variant": "#6912ff",
-        "pictures": ["cinza.png"]
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
       },
       {
         "variant": "#1269ff",
-        "pictures": ["cinza.png"]
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
       },
       {
         "variant": "#ff1255",
-        "pictures": ["cinza.png"]
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
       }
     ]
   },
@@ -40,10 +165,35 @@
     "sizes": ["S", "M", "L", "XL"],
     "colors": null,
     "src_img": "caique-nascimento.jpg",
-    "imgUrl": [
+    "variants": [
       {
-        "variant": null,
-        "pictures": ["preta.png"]
+        "variant": "#ff4d12",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["preta.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["preta.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["preta.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["preta.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["preta.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["preta.png"]
+          }
+        ]
       }
     ]
   },
@@ -56,26 +206,151 @@
     "sizes": ["S", "M", "L", "XL"],
     "colors": ["#ff4d12", "#ffdb12", "#6912ff", "#1269ff", "#ff1255"],
     "src_img": "calvin-lupiya.jpg",
-    "imgUrl": [
+    "variants": [
       {
-        "variant": null,
-        "pictures": ["azul-rosa.png"]
+        "variant": "#ff4d12",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["azul-rosa.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["azul-rosa.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["azul-rosa.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["azul-rosa.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["azul-rosa.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["azul-rosa.png"]
+          }
+        ]
       },
       {
         "variant": "#ffdb12",
-        "pictures": ["cinza.png"]
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
       },
       {
         "variant": "#6912ff",
-        "pictures": ["cinza.png"]
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
       },
       {
         "variant": "#1269ff",
-        "pictures": ["cinza.png"]
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
       },
       {
         "variant": "#ff1255",
-        "pictures": ["cinza.png"]
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
       }
     ]
   },
@@ -88,10 +363,35 @@
     "sizes": ["S", "M", "L", "XL"],
     "colors": null,
     "src_img": "deji-akinyele.jpg",
-    "imgUrl": [
+    "variants": [
       {
-      "variant": null,
-      "pictures": ["verde-laranja.png"]
+        "variant": "#ff4d12",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["verde-laranja.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["verde-laranja.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["verde-laranja.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["verde-laranja.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["verde-laranja.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["verde-laranja.png"]
+          }
+        ]
       }
     ]
   },
@@ -104,10 +404,35 @@
     "sizes": ["S", "M", "L", "XL"],
     "colors": null,
     "src_img": "alexander-krivitskiy.jpg",
-    "imgUrl": [
+    "variants": [
       {
-      "variant": null,
-      "pictures": ["lilaz-rosa.png"]
+        "variant": "#ff4d12",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["lilaz-rosa.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["lilaz-rosa.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["lilaz-rosa.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["lilaz-rosa.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["lilaz-rosa.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["lilaz-rosa.png"]
+          }
+        ]
       }
     ]
   },
@@ -120,10 +445,35 @@
     "sizes": ["S", "M", "L", "XL"],
     "colors": null,
     "src_img": "juan-manuel-merino.jpg",
-    "imgUrl": [
+    "variants": [
       {
-      "variant": null,
-      "pictures": ["musgo-laranja.png"]
+        "variant": "#ff4d12",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["musgo-laranja.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["musgo-laranja.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["musgo-laranja.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["musgo-laranja.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["musgo-laranja.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["musgo-laranja.png"]
+          }
+        ]
       }
     ]
   },
@@ -136,10 +486,35 @@
     "sizes": ["200", "400", "600"],
     "colors": null,
     "src_img": "0-perfume.jpg",
-    "imgUrl": [
+    "variants": [
       {
-      "variant": null,
-      "pictures": ["bordo.png"]
+        "variant": "#ff4d12",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["bordo.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["bordo.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["bordo.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["bordo.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["bordo.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["bordo.png"]
+          }
+        ]
       }
     ]
   },
@@ -152,26 +527,151 @@
     "sizes": ["S", "M", "L", "XL"],
     "colors": ["#ff4d12", "#ffdb12", "#6912ff", "#1269ff", "#ff1255"],
     "src_img": "calvin-lupiya.jpg",
-    "imgUrl": [
+    "variants": [
       {
-        "variant": null,
-        "pictures": ["verde-bronze.png"]
+        "variant": "#ff4d12",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
       },
       {
         "variant": "#ffdb12",
-        "pictures": ["cinza.png"]
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
       },
       {
         "variant": "#6912ff",
-        "pictures": ["cinza.png"]
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
       },
       {
         "variant": "#1269ff",
-        "pictures": ["cinza.png"]
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
       },
       {
         "variant": "#ff1255",
-        "pictures": ["cinza.png"]
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
       }
     ]
   },
@@ -184,10 +684,35 @@
     "sizes": ["S", "M", "L", "XL"],
     "colors": null,
     "src_img": "caique-nascimento.jpg",
-    "imgUrl": [
+    "variants": [
       {
-        "variant": null,
-        "pictures": ["preta.png"]
+        "variant": "#ff4d12",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
       }
     ]
   },
@@ -200,26 +725,151 @@
     "sizes": ["S", "M", "L", "XL"],
     "colors": ["#ff4d12", "#ffdb12", "#6912ff", "#1269ff", "#ff1255"],
     "src_img": "calvin-lupiya.jpg",
-    "imgUrl": [
+    "variants": [
       {
-        "variant": null,
-        "pictures": ["cinza.png"]
+        "variant": "#ff4d12",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
       },
       {
         "variant": "#ffdb12",
-        "pictures": ["cinza.png"]
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
       },
       {
         "variant": "#6912ff",
-        "pictures": ["cinza.png"]
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
       },
       {
         "variant": "#1269ff",
-        "pictures": ["cinza.png"]
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
       },
       {
         "variant": "#ff1255",
-        "pictures": ["cinza.png"]
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
       }
     ]
   },
@@ -232,10 +882,35 @@
     "sizes": ["S", "M", "L", "XL"],
     "colors": null,
     "src_img": "deji-akinyele.jpg",
-    "imgUrl": [
+    "variants": [
       {
-      "variant": null,
-      "pictures": ["cinza.png"]
+        "variant": "#ff4d12",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
       }
     ]
   },
@@ -248,10 +923,35 @@
     "sizes": ["S", "M", "L", "XL"],
     "colors": null,
     "src_img": "alexander-krivitskiy.jpg",
-    "imgUrl": [
+    "variants": [
       {
-      "variant": null,
-      "pictures": ["cinza.png"]
+        "variant": "#ff4d12",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
       }
     ]
   },
@@ -264,10 +964,35 @@
     "sizes": ["S", "M", "L", "XL"],
     "colors": null,
     "src_img": "juan-manuel-merino.jpg",
-    "imgUrl": [
+    "variants": [
       {
-      "variant": null,
-      "pictures": ["cinza.png"]
+        "variant": "#ff4d12",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
       }
     ]
   },
@@ -280,10 +1005,35 @@
     "sizes": ["200", "400", "600"],
     "colors": null,
     "src_img": "0-perfume.jpg",
-    "imgUrl": [
+    "variants": [
       {
-      "variant": null,
-      "pictures": ["cinza.png"]
+        "variant": "#ff4d12",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
       }
     ]
   }

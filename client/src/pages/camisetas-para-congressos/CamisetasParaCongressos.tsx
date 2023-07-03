@@ -94,7 +94,7 @@ export default function CamisetasParaCongressos() {
                           </div>
                           <h3 className={styles.sss}>{p.price}</h3>
                         </div>
-                        <img src={'../../src/images/camisetas-para-congressos/' + p.imgUrl[0].pictures[0]} alt='' />
+                        <img src={'../../src/images/camisetas-para-congressos/' + p.variants[0].models[0].picture[0]} alt='' />
                       </li>
                       //  </Link>
                     ))

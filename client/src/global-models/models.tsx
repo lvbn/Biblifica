@@ -1,7 +1,16 @@
-interface imgUrlArray {
-      variant: null | string,
-      pictures: string[]
-}
+// interface Model {
+//   model: string
+//   picture: string[]
+// }
+// interface Models {
+//   variant: string
+//   models: Model[]
+// }
+
+// interface imgUrlArray {
+//       variant: null | string,
+//       models: Models[]
+// }
 
 export interface Product {
   id: number,
@@ -39,16 +48,38 @@ export interface CartItem {
   ]
 }
 
+// export interface CamisetasParaCongressos {
+//   id: number,
+//   title: string,
+//   description: string,
+//   price: number,
+//   category_ids: string[],
+//   sizes: string[],
+//   colors: string[] | null,
+//   src_img: string,
+//   imgUrl: imgUrlArray[]
+// }
+
 export interface CamisetasParaCongressos {
-  id: number,
-  title: string,
-  description: string,
-  price: number,
-  category_ids: string[],
-  sizes: string[],
-  colors: string[] | null,
-  src_img: string,
-  imgUrl: imgUrlArray[]
+  id: number
+  title: string
+  description: string
+  price: number
+  category_ids: string[]
+  sizes: string[]
+  colors: string[] | null
+  src_img: string
+  variants: Variants[]
+}
+
+export interface Variants {
+  variant: string
+  models: Model[]
+}
+
+export interface Model {
+  model: string
+  picture: string[]
 }
 
 export interface ListObject {
