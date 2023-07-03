@@ -1,0 +1,1040 @@
+[
+  {
+    "id": 1,
+    "title": "t-shirt",
+    "description": "soft and comfy touch. Cotton special.",
+    "price": 75.00,
+    "category_ids": ["clothes", "t-shirt", "women"],
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["#ff4d12", "#ffdb12", "#6912ff", "#1269ff", "#ff1255"],
+    "src_img": "calvin-lupiya.jpg",
+    "variants": [
+      {
+        "variant": "#ff4d12",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["preta.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
+      },
+      {
+        "variant": "#ffdb12",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
+      },
+      {
+        "variant": "#6912ff",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
+      },
+      {
+        "variant": "#1269ff",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
+      },
+      {
+        "variant": "#ff1255",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "earrings",
+    "description": "soft and comfy touch. Cotton special.",
+    "price": 80.00,
+    "category_ids": ["jewelry", "women"],
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": null,
+    "src_img": "caique-nascimento.jpg",
+    "variants": [
+      {
+        "variant": "#ff4d12",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["preta.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["preta.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["preta.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["preta.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["preta.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["preta.png"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "t-shirt",
+    "description": "soft and comfy touch. Cotton special.",
+    "price": 105.00,
+    "category_ids": ["clothes", "t-shirt", "men", "women"],
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["#ff4d12", "#ffdb12", "#6912ff", "#1269ff", "#ff1255"],
+    "src_img": "calvin-lupiya.jpg",
+    "variants": [
+      {
+        "variant": "#ff4d12",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["azul-rosa.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["azul-rosa.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["azul-rosa.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["azul-rosa.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["azul-rosa.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["azul-rosa.png"]
+          }
+        ]
+      },
+      {
+        "variant": "#ffdb12",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
+      },
+      {
+        "variant": "#6912ff",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
+      },
+      {
+        "variant": "#1269ff",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
+      },
+      {
+        "variant": "#ff1255",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "hat",
+    "description": "soft and comfy touch. Cotton special.",
+    "price": 200.00,
+    "category_ids": ["hats", "women"],
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": null,
+    "src_img": "deji-akinyele.jpg",
+    "variants": [
+      {
+        "variant": "#ff4d12",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["verde-laranja.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["verde-laranja.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["verde-laranja.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["verde-laranja.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["verde-laranja.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["verde-laranja.png"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "earrings",
+    "description": "soft and comfy touch. Cotton special.",
+    "price": 305.00,
+    "category_ids": ["jewelry", "earrings", "women"],
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": null,
+    "src_img": "alexander-krivitskiy.jpg",
+    "variants": [
+      {
+        "variant": "#ff4d12",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["lilaz-rosa.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["lilaz-rosa.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["lilaz-rosa.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["lilaz-rosa.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["lilaz-rosa.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["lilaz-rosa.png"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "bracelet",
+    "description": "soft and comfy touch. Cotton special.",
+    "price": 270.00,
+    "category_ids": ["jewelry", "bracelet", "women"],
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": null,
+    "src_img": "juan-manuel-merino.jpg",
+    "variants": [
+      {
+        "variant": "#ff4d12",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["musgo-laranja.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["musgo-laranja.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["musgo-laranja.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["musgo-laranja.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["musgo-laranja.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["musgo-laranja.png"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "perfume",
+    "description": "soft and comfy touch. Cotton special.",
+    "price": 270.00,
+    "category_ids": ["perfumes", "women", "men"],
+    "sizes": ["200", "400", "600"],
+    "colors": null,
+    "src_img": "0-perfume.jpg",
+    "variants": [
+      {
+        "variant": "#ff4d12",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["bordo.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["bordo.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["bordo.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["bordo.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["bordo.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["bordo.png"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "t-shirt",
+    "description": "soft and comfy touch. Cotton special.",
+    "price": 75.00,
+    "category_ids": ["clothes", "t-shirt", "women"],
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["#ff4d12", "#ffdb12", "#6912ff", "#1269ff", "#ff1255"],
+    "src_img": "calvin-lupiya.jpg",
+    "variants": [
+      {
+        "variant": "#ff4d12",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
+      },
+      {
+        "variant": "#ffdb12",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
+      },
+      {
+        "variant": "#6912ff",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
+      },
+      {
+        "variant": "#1269ff",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
+      },
+      {
+        "variant": "#ff1255",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "earrings",
+    "description": "soft and comfy touch. Cotton special.",
+    "price": 80.00,
+    "category_ids": ["jewelry", "women"],
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": null,
+    "src_img": "caique-nascimento.jpg",
+    "variants": [
+      {
+        "variant": "#ff4d12",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "t-shirt",
+    "description": "soft and comfy touch. Cotton special.",
+    "price": 105.00,
+    "category_ids": ["clothes", "t-shirt", "men", "women"],
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["#ff4d12", "#ffdb12", "#6912ff", "#1269ff", "#ff1255"],
+    "src_img": "calvin-lupiya.jpg",
+    "variants": [
+      {
+        "variant": "#ff4d12",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
+      },
+      {
+        "variant": "#ffdb12",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
+      },
+      {
+        "variant": "#6912ff",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
+      },
+      {
+        "variant": "#1269ff",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
+      },
+      {
+        "variant": "#ff1255",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "hat",
+    "description": "soft and comfy touch. Cotton special.",
+    "price": 200.00,
+    "category_ids": ["hats", "women"],
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": null,
+    "src_img": "deji-akinyele.jpg",
+    "variants": [
+      {
+        "variant": "#ff4d12",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "earrings",
+    "description": "soft and comfy touch. Cotton special.",
+    "price": 305.00,
+    "category_ids": ["jewelry", "earrings", "women"],
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": null,
+    "src_img": "alexander-krivitskiy.jpg",
+    "variants": [
+      {
+        "variant": "#ff4d12",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "bracelet",
+    "description": "soft and comfy touch. Cotton special.",
+    "price": 270.00,
+    "category_ids": ["jewelry", "bracelet", "women"],
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": null,
+    "src_img": "juan-manuel-merino.jpg",
+    "variants": [
+      {
+        "variant": "#ff4d12",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "perfume",
+    "description": "soft and comfy touch. Cotton special.",
+    "price": 270.00,
+    "category_ids": ["perfumes", "women", "men"],
+    "sizes": ["200", "400", "600"],
+    "colors": null,
+    "src_img": "0-perfume.jpg",
+    "variants": [
+      {
+        "variant": "#ff4d12",
+        "models": [
+          {
+            "model": "masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "feminina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "unissex",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "babylook masculina",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "infantil",
+            "picture": ["cinza.png"]
+          },
+          {
+            "model": "bebe",
+            "picture": ["cinza.png"]
+          }
+        ]
+      }
+    ]
+  }
+]

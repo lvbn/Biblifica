@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 import styles from './Products.module.css'
 import { Link, useParams } from 'react-router-dom'
 import productsArray from '../../data/items.json'
+import categories from '../../data/categories.json'
 import { Product } from '../../global-models/models'
 import List from '../../components/list/List'
 
@@ -78,7 +79,7 @@ export default function Products() {
           <h5>veja também</h5>
           <h1>Categorias</h1>
         </div>
-        <List />
+        <List iterable={categories}/>
       </div>
     </>
   )

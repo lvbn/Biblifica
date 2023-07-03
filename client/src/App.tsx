@@ -15,7 +15,10 @@ import ScrollToTop from './components/ScrollToTop'
 import Products from './pages/products/Products'
 import Product from './pages/product/Product'
 import ShoppingCart from './components/shoppingCart/ShoppingCart';
-
+import CamisetasParaCongressos from './pages/camisetas-para-congressos/CamisetasParaCongressos';
+import CrieSuaCamiseta from './pages/crie-sua-camiseta/CrieSuaCamiseta';
+import ConfigurarCamisetasParaCongressos from './pages/configurar-camisetas-para-congressos/ConfigurarCamisetasParaCongressos';
+import PedirCamisetasParaCongressos from './pages/Pedir-camisetas-para-congressos/PedirCamisetasParaCongressos';
 // context
 // import { ShoppingCartProvider } from './context/ShoppingCartContext'
 
@@ -37,6 +40,10 @@ function App() {
             <Route path='/workwithus' element={<WorkWithUs/>} />
             <Route path='/products/:category' element={<Products/>} />
             <Route path='/product/:id' element={<Product/>} />
+            <Route path='/camisetas-para-congressos' element={<CamisetasParaCongressos/>} />
+            <Route path='/configurar-camisetas-para-congressos/:id' element={<ConfigurarCamisetasParaCongressos/>} />
+            <Route path='/pedir-camisetas-para-congressos/:id' element={<PedirCamisetasParaCongressos/>} />
+            <Route path='/crie-sua-camiseta' element={<CrieSuaCamiseta/>} />
           </Routes>
 
           <Footer />

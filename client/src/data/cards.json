@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "t-shirt",
+    "color": "#ff1255",
+    "img": "card-1.png"
+  },
+  {
+    "id": 2,
+    "title": "t-shirt",
+    "color": "#1269ff",
+    "img": "card-2.png"
+  },
+  {
+    "id": 3,
+    "title": "t-shirt",
+    "color": "#6912ff",
+    "img": "card-3.png"
+  }
+]

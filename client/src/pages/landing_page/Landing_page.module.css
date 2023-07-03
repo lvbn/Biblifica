@@ -4,24 +4,82 @@
 .container {
   position: relative;
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100vw;
   height: calc(100vh - 71px);
   margin-top: 71px;
+  margin-bottom: 100px;
+  padding: 50px;
 }
 
-.cristopher img, .ryan img {
+.card {
+  box-sizing: border-box;
   width: 100%;
   height: 100%;
+
+  border-radius: 20px;
+  background: linear-gradient(135deg, #BC92FF 0%, rgba(237, 241, 0, 0.415) 100%);
+  /* background-color: var(--secondBackgroudColor); */
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
   object-fit: cover;
 }
 
-
-.cristopher {
-  width: 60vw;
-  height: 100%;
-  position: absolute;
-  left: 0;
+.card div.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
+
+.card h1 {
+  background: transparent;
+  color: black;
+  font-size: 5em;
+  margin-left: 100px;
+
+  text-align: left;
+}
+
+.card span.hightlight {
+  background: transparent;
+  color: var(--mainTextAndMarginColors);
+  /* border-bottom: 20px solid rgb(220, 0, 202); */
+}
+
+/* https://plantpot.works/2793 */
+.card span.underline {
+  /* background-image: linear-gradient(90deg, rgb(220, 0, 202), #f2a640); */
+  background-image: linear-gradient(90deg,#f2a640, #f2a640);
+  background-position: bottom;
+  background-size: 120% 30%;
+  background-repeat: no-repeat;
+}
+
+.card button {
+  background: var(--mainTextAndMarginColors);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  font-size: larger;
+
+  border: none;
+  border-radius: 10px;
+
+  margin-top: 50px;
+  margin-left: 100px;
+
+  cursor: pointer;
+}
+
 
 .ryan {
   width: 40vw;
@@ -41,32 +99,35 @@
 
   padding: 25px 30px;
   margin: auto;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 
-  background: rgba(130, 130, 130, 0.1);
+  color: var(--mainTextAndMarginColors);
+  background-color: var(--mainBackgroudColor);
+  border: 1px solid var(--mainTextAndMarginColors);
+  border-radius: 20px;
 
   font-size: 20px;
 }
 
 .cristopher:hover > .collections, .pic:hover .collections {
   bottom: 0;
-  color: rgba(134, 134, 134, 0.9);
+  /* color: rgba(134, 134, 134, 0.9); */
   display: flex;
   justify-content: center;
   align-items: center;
   transform: 0.5s;
-  background: rgba(130, 130, 130, 0.1);
+  /* background: rgba(130, 130, 130, 0.1); */
 }
 
 .ryan:hover > .collections,
 .pic:nth-child(2):hover > .collections {
   bottom: 0;
-  color: rgb(216, 216, 216);
+  /* color: rgb(216, 216, 216); */
   display: flex;
   justify-content: center;
   align-items: center;
   transform: 0.5s;
-  background: rgba(0, 0, 0, 0.6);
+  /* background: rgba(0, 0, 0, 0.6); */
 }
 
 .collections:hover {
@@ -78,7 +139,7 @@
 /* ------------ SHOP BY ------------ */
 
 .shop_by {
-  margin: 100px auto 100px;
+  margin: 0 auto 60px;
   text-align: initial;
 }
 
@@ -92,23 +153,31 @@ h5, h1 {
 
 /* ------------ FOUR PICS ------------ */
 .four_pics {
-  margin-top: 150px;
+  /* margin-top: 150px; */
   display: flex;
+  justify-content: space-evenly;
   flex-wrap: wrap;
+  gap:  50px;
   width: 100vw;
+  padding: 0 50px;
+  margin-bottom: 100px;
 }
 
 .pic{
   position: relative;
   box-sizing: border-box;
-  width: 50vw;
-  height: 90vh;
-  padding: 50px;
+  /* width: 50vw; */
+  flex: 1 0 21%;
+  height: 80vh;
+  /* border-radius: 20px; */
+  /* margin: 0 5vw; */
+  /* padding: 0 50px; */
 }
 
 .pic img {
   width: 100%;
   height: 100%;
+  border-radius: 20px;
   object-fit: cover;
 }
 

@@ -1,0 +1,274 @@
+
+
+.container {
+  color: white;
+  margin-top: 71px;
+  width: 100vw;
+  height: calc(100vh - 71px);
+  display: flex;
+}
+
+.left {
+  width: 40vw;
+  height: calc(100vh - 71px);
+  display: flex;
+  flex-direction: column;
+}
+
+.shop_by {
+  margin: 50px auto 50px 76px;
+  text-align: initial;
+}
+
+
+
+.imageBox {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 154px);
+
+  /* background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; */
+}
+
+.mainImage {
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+}
+
+.productInfo {
+  width: 60vw;
+  height: calc(100vh - 71px);
+  padding: 60px auto 60px 0px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* border-left: 1px solid var(--secondBackgroudColor); */
+}
+
+.title {
+  margin-bottom: 40px;
+  align-self: flex-start;
+}
+
+h5,
+h1 {
+  width: fit-content;
+}
+
+p {
+  text-align: initial;
+  color: var(--mainTextAndMarginColors);
+}
+
+
+/* FORM START */
+
+
+/* .searchbarForm {
+  position: relative;
+  border: 1px solid var(--mainTextAndMarginColors);
+  background-color: var(--secondBackgroudColor);
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+} */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 20px;
+  width: 90%;
+  /* max-width: 600px; */
+  min-width: 700px;
+  height: 600px;
+  padding: 20px;
+
+  /* border: 1px solid var(--secondBackgroudColor); */
+  border-radius: 20px;
+}
+
+/* FORM END */
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+}
+
+.button {
+  /* max-width: 600px; */
+  min-width: fit-content;
+  height: 70px;
+  font-size: 20px;
+  color: var(--mainBackgroudColor);
+  background-color: var(--mainTextAndMarginColors);
+  border: 0.5px solid var(--mainTextAndMarginColors);
+  border-radius: 10px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.add {
+  width: 60%;
+  min-width: fit-content;
+}
+
+.end {
+  width: 37%;
+  min-width: fit-content;
+}
+
+.seeMore {
+  margin: 200px auto 200px;
+  text-align: initial;
+}
+
+/* TABLe START */
+
+.tableWrapper {
+  width: 100%;
+  height: 100%;
+  /* margin-top: 50px; */
+  border-radius: 10px 10px 0 0;
+  /* background-color: #2C2C2C; */
+  overflow: scroll
+}
+
+.table {
+  position: relative;
+
+  width: 100%;
+  /* background-color: #2C2C2C; */
+
+  box-sizing: border-box;
+  padding: 0 20px 0 20px;
+  border-radius: 10px 10px 0 0;
+
+  color: var(--mainTextAndMarginColors);
+
+  table-layout: fixed;
+  border-spacing: 0px;
+
+  border-collapse: collapse;
+}
+
+.tableHead>tr>th {
+  text-align: initial;
+  height: 55px;
+}
+
+.tableBody>tr>td {
+  text-align: initial;
+  height: 120px;
+}
+
+.tableHead>tr>th:first-child,
+.tableBody>tr>td:first-child {
+  width: fit-content !important;
+}
+
+.tableHead>tr>th {
+  position: sticky;
+  padding: 0px;
+  top: 0px;
+  z-index: 2;
+
+
+  background-color: var(--mainBackgroudColor);
+}
+
+.tableHead>tr>td {
+  z-index: 1;
+}
+
+.tableBody {
+  overflow-y: auto;
+}
+
+.tableRow {
+  /* height: 40px; */
+  border-bottom: 1px solid var(--secondBackgroudColor);
+}
+
+.quantity {
+  display: flex;
+}
+
+.increase, .decrease {
+  cursor: pointer;
+}
+
+.modelImage {
+  height: 110px;
+}
+
+/* TABLE END */
+
+/* styling the selectors START */
+
+.select {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  width: fit-content;
+  height: 40px;
+  padding: 8px 15px;
+  margin-right: 10px;
+  box-sizing: border-box;
+
+  /* background-color: var(--secondBackgroudColor); */
+  background: transparent;
+  color: var(--mainTextAndMarginColors);
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  /* hide caret in FireFox */
+  -moz-appearance: none;
+  /* hide caret in Chrome */
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+/* styling the selectors END */
+
+@media only screen and (max-width: 400px) {
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .mainImage {
+    width: 100vw;
+  }
+
+  .productInfo {
+    width: 100vw;
+  }
+
+  .sideImage {
+    min-width: 150px;
+  }
+
+  .seeMore {
+    margin: 100px auto 100px;
+    text-align: initial;
+  }
+}
