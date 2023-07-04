@@ -29,6 +29,12 @@ All product details are shown on this page, allowing the user to select color an
 - The shopping cart floats to the right.
 - It is accessible anywhere in the application to allow customers to keep track of it without interrupting the shopping flow, increasing sales and providing a better user experience.
 - It is also resizable for the convenience of the user's screen.
+### * Congress products page:
+A page showing all products under the congress category
+### * Congress products configuration:
+Customers can create custom products with their own information
+### * Congress products order:
+customers can buy different product variables and in different quantities with just one transaction.
 
 ## Getting it up and running
 ### In the client directory:
