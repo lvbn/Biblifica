@@ -22,7 +22,7 @@ export default function CartItem({ id }: any) {
   // console.log('ITEM: ', item)
   return (item && item.quantity ?
     <div className={styles.item}>
-      <img src={'../../src/images/' + item.src_img} alt='' className={styles.img} />
+      <img src={'../../../public/images/' + item.src_img} alt='' className={styles.img} />
 
       <div className={styles.itemDetails}>
         <div className={styles.titleAndSize}>

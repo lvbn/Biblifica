@@ -60,7 +60,7 @@ export default function Product() {
   return (
     <>
       <div className={styles.container}>
-        <img src={'../../src/images/' + mainImg} alt='' className={styles.mainImage} />
+        <img src={'../../../public/images/' + mainImg} alt='' className={styles.mainImage} />
 
         <div className={styles.productInfo}>
           <div className={styles.title}>
@@ -149,7 +149,7 @@ export default function Product() {
                 key={index}
                 onClick={() => setMainImg(imgArray[index])}
                 // src={'../../src/images/' + img}
-                src={`../../src/images/${img}`}
+                src={`../../../public/images/${img}`}
                 alt=''
                 className={styles.sideImage}
               />

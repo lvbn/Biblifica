@@ -3,7 +3,7 @@ import List from '../../components/list/List'
 import styles from './Landing_page.module.css'
 
 import card from '../../../public/images/cards/card-1.png'
-import alexander from '../../images/alexander-krivitskiy.jpg'
+import alexander from '../../..public/images/alexander-krivitskiy.jpg'
 import Slider from '../../components/slider/Slider';
 import Swiper from '../../components/swiper/Swiper';
 

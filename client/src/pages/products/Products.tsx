@@ -67,7 +67,7 @@ export default function Products() {
               </div>
 
               <div className={styles.emptySearch}>
-                <img src={'../../src/images/empty-search.jpg'} alt='' />
+                <img src={'../../..public/images/empty-search.jpg'} alt='' />
               </div>
             </>
         }
