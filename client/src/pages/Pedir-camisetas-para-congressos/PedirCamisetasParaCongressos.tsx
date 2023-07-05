@@ -116,7 +116,7 @@ export default function PedirCamisetasParaCongressos() {
           // style={{backgroundImage: `url(../../src/images/camisetas-para-congressos/${mainImg})`}}
           >
             <img
-              src={'../../..public/images/camisetas-para-congressos/' + mainImg}
+              src={'../../images/camisetas-para-congressos/' + mainImg}
               alt=''
               className={styles.mainImage}
             />
@@ -181,7 +181,7 @@ export default function PedirCamisetasParaCongressos() {
 
                         <td>
                           <img
-                            src={'../../../public/images/camisetas-para-congressos/' + order.image}
+                            src={'../../images/camisetas-para-congressos/' + order.image}
                             alt=''
                             className={styles.modelImage}
                           />

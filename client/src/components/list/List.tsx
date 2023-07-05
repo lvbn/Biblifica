@@ -14,7 +14,7 @@ export default function List({iterable}: {iterable: ListObject[]}) {
       {
         iterable.map((p: ListObject) => (
             <li key={p.id} className={styles.li} onClick={() => navigate('/products/' + p.category)}>
-              <img src={'../../../public/images/' + p.src_img} alt='' />
+              <img src={'../../images/' + p.src_img} alt='' />
               <div className={styles.categoryBanner}>{p.category}</div>
             </li>
         ))

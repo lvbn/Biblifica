@@ -46,7 +46,7 @@ export default function ConfigurarCamisetasParaCongressos() {
           // style={{backgroundImage: `url(../../src/images/camisetas-para-congressos/${mainImg})`}}
           >
             <img
-              src={'../../../public/images/camisetas-para-congressos/' + mainImg}
+              src={'../../images/camisetas-para-congressos/' + mainImg}
               alt=''
               className={styles.mainImage}
             />
