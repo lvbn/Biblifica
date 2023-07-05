@@ -1,12 +1,12 @@
 import styles from './ConfigurarCamisetasParaCongressos.module.css'
 // ConfigurarCamisetasParaCongressos
-import { useState } from 'react'
+// import { useState } from 'react'
 import List from '../../components/list/List'
 import { useParams, useNavigate } from "react-router-dom"
 
 import storeItems from '../../data/camisetas-para-congressos.json'
 
-import { CartItem } from '../../global-models/models'
+// import { CartItem } from '../../global-models/models'
 
 import categories from '../../data/categories.json'
 
@@ -16,19 +16,19 @@ export default function ConfigurarCamisetasParaCongressos() {
   const param = useParams()
   let item: any = storeItems.find(item => String(item.id) === param.id)
 
-  const [newItem, setNewItem] = useState<CartItem>({
-    id: item.id,
-    title: item.title,
-    description: item.description,
-    price: item.price,
-    category_ids: item.category_ids,
-    quantity: 0,
-    size: undefined,
-    selectedColor: undefined,
-    gift_wrap: false,
-    src_img: item.src_img,
-    imgUrl: item.imgUrl
-  })
+  // const [newItem, setNewItem] = useState<CartItem>({
+  //   id: item.id,
+  //   title: item.title,
+  //   description: item.description,
+  //   price: item.price,
+  //   category_ids: item.category_ids,
+  //   quantity: 0,
+  //   size: undefined,
+  //   selectedColor: undefined,
+  //   gift_wrap: false,
+  //   src_img: item.src_img,
+  //   imgUrl: item.imgUrl
+  // })
 
   const mainImg = item.variants[0].models[0].picture[0]
 

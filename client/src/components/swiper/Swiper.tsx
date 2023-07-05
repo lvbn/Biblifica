@@ -46,7 +46,7 @@ export default function Swiper() {
       }
       <div className={styles.slides}>
         {
-          cards.map((card, index) => (
+          cards.map((_card, index) => (
             <div
               key={index}
               className={`${styles.slide} ${activeSlideClass(index)}`}

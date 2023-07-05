@@ -1,6 +1,6 @@
-import { Link, useNavigate, useParams } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import styles from './CamisetasParaCongressos.module.css'
-import { useState, useEffect } from 'react'
+// import { useState, useEffect } from 'react'
 import List from '../../components/list/List'
 import { CamisetasParaCongressos as Products } from '../../global-models/models'
 
@@ -9,7 +9,7 @@ import categories from '../../data/categories.json'
 
 export default function CamisetasParaCongressos() {
 
-  const { category } = useParams()
+  // const { category } = useParams()
   // console.log(productsArray, category)
 
   // const [filtered, setFiltered] = useState<any>([])
@@ -30,14 +30,14 @@ export default function CamisetasParaCongressos() {
 
   const navigate = useNavigate()
 
-  const glassMorphism = {
-    // background: 'rgba(255, 255, 255, 0.2)',
-    borderRadius: '10px',
-    boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)',
-    backdropFilter: 'blur(5px)',
-    webkitBackdropFilter: 'blur(5px)',
-    border: '1px solid rgba(255, 255, 255, 0.3)',
-  }
+  // const glassMorphism = {
+  //   // background: 'rgba(255, 255, 255, 0.2)',
+  //   borderRadius: '10px',
+  //   boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)',
+  //   backdropFilter: 'blur(5px)',
+  //   webkitBackdropFilter: 'blur(5px)',
+  //   border: '1px solid rgba(255, 255, 255, 0.3)',
+  // }
 
   return (
     <>

@@ -5,7 +5,7 @@ import { useParams, useNavigate } from "react-router-dom"
 
 import camisetasParaCongressos from '../../data/camisetas-para-congressos.json'
 
-import { CartItem } from '../../global-models/models'
+// import { CartItem } from '../../global-models/models'
 
 import categories from '../../data/categories.json'
 
@@ -18,19 +18,19 @@ export default function PedirCamisetasParaCongressos() {
   const param = useParams()
   let item: any = camisetasParaCongressos.find(item => String(item.id) === param.id)
 
-  const [newItem, setNewItem] = useState<CartItem>({
-    id: item.id,
-    title: item.title,
-    description: item.description,
-    price: item.price,
-    category_ids: item.category_ids,
-    quantity: 0,
-    size: undefined,
-    selectedColor: undefined,
-    gift_wrap: false,
-    src_img: item.src_img,
-    imgUrl: item.imgUrl
-  })
+  // const [newItem, setNewItem] = useState<CartItem>({
+  //   id: item.id,
+  //   title: item.title,
+  //   description: item.description,
+  //   price: item.price,
+  //   category_ids: item.category_ids,
+  //   quantity: 0,
+  //   size: undefined,
+  //   selectedColor: undefined,
+  //   gift_wrap: false,
+  //   src_img: item.src_img,
+  //   imgUrl: item.imgUrl
+  // })
 
   const mainImg = item.variants[0].models[0].picture[0]
 

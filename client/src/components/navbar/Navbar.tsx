@@ -7,7 +7,6 @@ import { useCartSlice } from '../../store/ShoppingCartSlice'
 
 export default function Navbar() {
   // const { openCart, cartQuantity } = useShoppingCart()
-  const openCart = useCartSlice((state) => state.openCart)
   const cartItems = useCartSlice((state) => state.cartItems)
   const toggleCart = useCartSlice((state) => state.toggleCart)
   const isOpen = useCartSlice((state) => state.isOpen)
