@@ -10,22 +10,22 @@ export default function Footer() {
       <p>FOR AWESOME SUNSETS & GREAT OFFERS, SIGN UP NOW</p>
 
       <form className={styles.news_letters}>
-        <input className={styles.news_letters} placeholder='E-MAIL'></input>
+        <input className={styles.news_letters} placeholder='email'></input>
         <button>OK</button>
       </form>
 
       <div className={styles.footer_columns}>
         <div className={`${styles.column} ${styles.about}`}>
           <h2>ABOUT</h2>
-          <Link to='/about'>ABOUT TRAMONTO</Link>
-          <Link to='/workWithUs'>WORK WITH US</Link>
+          <a>ABOUT TRAMONTO</a>
+          <a>WORK WITH US</a>
         </div>
 
         <div className={`${styles.column} ${styles.help}`}>
           <h2>HELP</h2>
-          <Link to='/FAQ'>FAQ</Link>
-          <Link to='/findYourOrder'>FIND YOUR ORDER</Link>
-          <Link to='/contactUs'>CONTACT US</Link>
+          <a>FAQ</a>
+          <a>FIND YOUR ORDER</a>
+          <a>CONTACT US</a>
         </div>
 
         <div className={`${styles.column} ${styles.follow_us}`}>

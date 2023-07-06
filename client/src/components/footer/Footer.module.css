@@ -7,6 +7,8 @@
   align-items: center;
   justify-content: space-between;
 
+  text-align: center;
+
   width: 100vw;
   height: calc(100vh - 71px);
   max-height: calc(100vh - 71px);
@@ -16,12 +18,8 @@
   /* background: linear-gradient(0deg, rgb(50, 50, 50) 0%, rgba(19, 20, 23, 0) 100%); */
 }
 
-.footer_container>P {
-  text-align: center;
+.footer_container p {
   color: var(--mainBackgroudColor);
-  font-size: small;
-
-  margin-top: 156px;
 }
 
 input.news_letters {
@@ -72,7 +70,7 @@ form.news_letters>button {
   flex-direction: row;
   justify-content: space-evenly;
   width: 100vw;
-  color: var(--mainBackgroudColor);
+  color: var(--mainBackgroudColor) !important;
   font-size: small;
 }
 
@@ -84,9 +82,18 @@ form.news_letters>button {
   align-items: start;
 }
 
-.column>a {
+.column a, .column p {
   margin: 15px 0;
   cursor: pointer;
+  color: var(--mainBackgroudColor) !important;
+}
+
+.column a:hover, .column p:hover {
+  color: var(--secondBackgroudColor) !important;
+}
+
+.payment_methods {
+  color: var(--mainBackgroudColor) !important;
 }
 
 .rights {
@@ -101,7 +108,7 @@ form.news_letters>button {
   border-top: 0.5px solid var(--mainBackgroudColor);
 }
 
-.rights > p {
+.rights p {
   color: var(--mainBackgroudColor)
 }
 

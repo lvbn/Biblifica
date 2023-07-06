@@ -34,6 +34,8 @@ export default function PedirCamisetasParaCongressos() {
 
   const mainImg = item.variants[0].models[0].picture[0]
 
+  // NOTE: cryptio.randomUUID() only works under HTTPS
+  // https://github.com/parcel-bundler/parcel/issues/8820
   const InitialOrder = [
     {
       id: crypto.randomUUID(),
