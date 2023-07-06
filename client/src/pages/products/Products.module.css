@@ -159,10 +159,16 @@ li:empty {
   }
 
   .list {
-    grid-template-columns: repeat(auto-fill,minmax(250px, 350px));
+    /* grid-template-columns: repeat(auto-fill,minmax(250px, 350px));
     grid-template-rows: repeat(auto-fill,minmax(350px, 350px));
     row-gap: 80px;
-    column-gap: 20px;
+    column-gap: 20px; */
+
+    display: grid;
+    grid-template-columns: repeat(2,45vw);
+    grid-template-rows: repeat(2,45vw);
+    gap: 20px;
+    justify-content: center;
   }
 
   .list > a {
