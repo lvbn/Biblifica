@@ -1,11 +1,11 @@
-@media only screen and (min-width: 4cm) {
+@media only screen and (min-width: 7cm) {
   /* For mobile phones: */
 
   .container {
     width: 100vw;
     height: calc(100vh - 71px);
     margin-top: 71px;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     padding: 15px;
   }
 
