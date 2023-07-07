@@ -35,7 +35,8 @@
   .pic{
     position: relative;
     box-sizing: border-box;
-    flex: 1 0 50%;
+    /* flex: 1 0 50%; */
+    width: 90vw;
     height: 80vh;
   }
 
