@@ -34,6 +34,22 @@ export default function Swiper() {
     }
   }
 
+  const swipeFoward = (curr: number) => {
+    if (curr === cards.length - 1) {
+      setIndex(0)
+    } else {
+      setIndex(index + 1)
+    }
+  }
+
+  const swipeBack = (curr: number) => {
+    if (curr === 0) {
+      setIndex(cards.length - 1)
+    } else {
+      setIndex(index - 1)
+    }
+  }
+
   return (
     <div className={styles.container}>
       {
@@ -57,6 +73,18 @@ export default function Swiper() {
           ))
         }
       </div>
+
+      <div className={styles.left} onClick={() => swipeBack(index)}>
+        <span className="material-symbols-outlined">
+          chevron_left
+        </span>
+      </div>
+      <div className={styles.right} onClick={() => swipeFoward(index)}>
+        <span className="material-symbols-outlined">
+          chevron_right
+        </span>
+      </div>
+
     </div>
   )
 }
