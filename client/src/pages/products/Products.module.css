@@ -152,7 +152,7 @@ li:empty {
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 7cm) {
 
   .container {
     /* margin-top: 150px; */
