@@ -1,3 +1,61 @@
+@media only screen and (min-width: 300px) {
+  /* For mobile phones: */
+
+  .container {
+    width: 100vw;
+    height: calc(100vh - 71px);
+    margin-top: 71px;
+    margin-bottom: 100px;
+    padding: 15px;
+  }
+
+  .card {
+    border-radius: 4px;
+  }
+
+  .card img {
+    border-radius: 4px;
+  }
+
+  .shop_by {
+    margin-top: 50px;
+  }
+
+  .four_pics {
+    /* margin-top: 150px; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap:  10px;
+    width: 100vw;
+    padding: 0 7.5px;
+    margin-bottom: 100px;
+  }
+
+  .pic{
+    position: relative;
+    box-sizing: border-box;
+    flex: 1 0 50%;
+    height: 80vh;
+  }
+
+  .pic img {
+    border-radius: 4px;
+  }
+
+  .cristopher {
+    width: 50vw;
+  }
+
+  .ryan {
+    width: 50vw;
+  }
+
+  .collections {
+    width: 90%;
+  }
+}
+
 @media only screen and (min-width: 1000px) {
 /* ------------ LANDING IMAGES ------------ */
 
@@ -180,62 +238,4 @@ h5, h1 {
   border-radius: 20px;
   object-fit: cover;
 }
-}
-
-@media only screen and (min-width: 300px) {
-  /* For mobile phones: */
-
-  .container {
-    width: 100vw;
-    height: calc(100vh - 71px);
-    margin-top: 71px;
-    margin-bottom: 100px;
-    padding: 15px;
-  }
-
-  .card {
-    border-radius: 4px;
-  }
-
-  .card img {
-    border-radius: 4px;
-  }
-
-  .shop_by {
-    margin-top: 50px;
-  }
-
-  .four_pics {
-    /* margin-top: 150px; */
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap:  10px;
-    width: 100vw;
-    padding: 0 7.5px;
-    margin-bottom: 100px;
-  }
-
-  .pic{
-    position: relative;
-    box-sizing: border-box;
-    flex: 1 0 50%;
-    height: 80vh;
-  }
-
-  .pic img {
-    border-radius: 4px;
-  }
-
-  .cristopher {
-    width: 50vw;
-  }
-
-  .ryan {
-    width: 50vw;
-  }
-
-  .collections {
-    width: 90%;
-  }
 }
