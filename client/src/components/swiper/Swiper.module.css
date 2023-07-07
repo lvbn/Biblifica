@@ -71,7 +71,7 @@
   background-color: var(--mainTextAndMarginColors);
 }
 
-@media only screen and (max-width: 7cm) {
+@media only screen and (max-width: 400px) {
   /* For mobile phones: */
 
   .card {

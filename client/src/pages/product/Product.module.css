@@ -203,7 +203,7 @@ p {
   text-align: initial;
 }
 
-@media only screen and (max-width: 7cm) {
+@media only screen and (max-width: 400px) {
 
   .container {
     display: flex;

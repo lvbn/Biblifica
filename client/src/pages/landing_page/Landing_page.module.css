@@ -181,7 +181,7 @@ h5, h1 {
   object-fit: cover;
 }
 
-@media only screen and (max-width: 7cm) {
+@media only screen and (max-width: 400px) {
   /* For mobile phones: */
 
   .container {
