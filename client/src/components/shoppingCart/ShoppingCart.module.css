@@ -130,9 +130,9 @@
   .container {
     box-sizing: border-box;
     position: fixed;
-    top: 71px;
-    bottom: 0px;
+    top: 61px;
+    /* bottom: 0px; */
     width: 100%;
-    height: calc(100vh - 71px);
+    height: calc(100vh - 48px);
   }
 }

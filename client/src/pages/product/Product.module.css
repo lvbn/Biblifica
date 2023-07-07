@@ -209,10 +209,14 @@ p {
     display: flex;
     flex-direction: column;
     height: fit-content;
+
+    margin-top: 61px;
+    width: 100vw;
   }
 
   .mainImage {
     width: 100vw;
+    height: calc(100vh - 61px);
   }
 
   .productInfo {

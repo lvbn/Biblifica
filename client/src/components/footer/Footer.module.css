@@ -44,6 +44,11 @@ textarea {
   font-size: larger;
 }
 
+.news_letters::placeholder {
+  color: var(--secondBackgroudColor);
+  font-size: small;
+}
+
 form.news_letters {
   display: flex;
   flex-direction: row;
@@ -60,6 +65,7 @@ form.news_letters>button {
   background: transparent;
   color: var(--mainBackgroudColor);
   border: 0.5px solid var(--mainBackgroudColor);
+  border-radius: 4px;
   margin-left: 60px;
   cursor: pointer;
   font-size: larger;
@@ -114,6 +120,18 @@ form.news_letters>button {
 
 @media only screen and (max-width: 400px) {
 
+
+  .footer_container {
+
+    width: 100vw;
+    height: calc(100vh - 61px);
+    max-height: calc(100vh - 61px);
+    /* margin-top: 71px; */
+
+    background: var(--mainTextAndMarginColors);
+    /* background: linear-gradient(0deg, rgb(50, 50, 50) 0%, rgba(19, 20, 23, 0) 100%); */
+  }
+
   /* For mobile phones: */
   .footer_container>p {
     margin: 50px 20px 50px 20px;
@@ -127,5 +145,6 @@ form.news_letters>button {
     display: grid;
     grid-template-columns: repeat(2, 45vw);
     justify-content: center;
+    gap: 20px;
   }
 }

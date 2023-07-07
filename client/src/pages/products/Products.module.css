@@ -49,7 +49,7 @@
   position: relative;
   width: 100%;
   height: 350px;
-  border: 0.5px solid rgba(134, 134, 134, 0.5);
+  /* border: 0.5px solid rgba(134, 134, 134, 0.5); */
   border-radius: 10px;
 
   cursor: pointer;
@@ -154,32 +154,38 @@ li:empty {
 
 @media only screen and (max-width: 400px) {
 
+  .container {
+    /* margin-top: 150px; */
+    margin-top: 61px;
+    min-height: calc(100vh - 61px);
+    height: fit-content;
+  }
+
   .shop_by {
     margin: 50px auto 50px 20px;
   }
 
   .list {
-    /* grid-template-columns: repeat(auto-fill,minmax(250px, 350px));
+    grid-template-columns: repeat(auto-fill,minmax(250px, 350px));
     grid-template-rows: repeat(auto-fill,minmax(350px, 350px));
     row-gap: 80px;
-    column-gap: 20px; */
-
-    display: grid;
-    grid-template-columns: repeat(2,45vw);
-    grid-template-rows: repeat(2,45vw);
-    gap: 20px;
-    justify-content: center;
+    column-gap: 20px;
   }
 
-  .list > a {
+  .list a {
     position: relative;
     width: 100%;
     height: 350px;
   }
 
-  .list > a > li {
+  .list a li {
     position: relative;
     width: 100%;
     height: 350px;
+    border-radius: 4px;
+  }
+
+  .list a li img {
+    border-radius: 4px;
   }
 }

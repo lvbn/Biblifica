@@ -139,6 +139,7 @@
 }
 
 @media only screen and (max-width: 400px) {
+
   /* For mobile phones: */
   .tramonto {
     display: none;
@@ -147,4 +148,18 @@
   .searchbar {
     min-width: 200px;
   }
+
+  .searchbarForm, .cart {
+    border-radius: 4px;
+
+  }
+
+  .searchbar, textarea {
+    border-radius: 4px 0 0 4px;
+  }
+
+  .searchBttn {
+    border-radius: 0 4px 4px 0;
+  }
+
 }

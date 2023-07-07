@@ -8,7 +8,7 @@ export default function Footer() {
       <p>FOR AWESOME SUNSETS & GREAT OFFERS, SIGN UP NOW</p>
 
       <form className={styles.news_letters}>
-        <input className={styles.news_letters} placeholder='email'></input>
+        <input className={styles.news_letters} placeholder='EMAIL'></input>
         <button>OK</button>
       </form>
 
