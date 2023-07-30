@@ -45,7 +45,6 @@ export default function PedirCamisetasParaCongressos() {
       price: item.price,
       quantity: 1,
       size: 'M',
-      // value: 'four',
       image: item.variants[0].models[0].picture[0],
     }
   ]
